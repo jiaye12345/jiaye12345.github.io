@@ -1,3 +1,8 @@
-$ cd _a/jiangjia12345.github.io
+苹果$ cd _a/jiangjia12345.github.io
+$ git add -A
+$ git commit -m "mesage"
+
+window
+$cd /c/_a/jiaye12345.github.io/
 $ git add -A
 $ git commit -m "mesage"
