@@ -1,0 +1,3 @@
+$ cd _a/jiangjia12345.github.io
+$ git add -A
+$ git commit -m "mesage"

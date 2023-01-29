@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>z-index.html</title>
+    <style>
+        #container {
+            border:solid;
+            height:400px;
+        }
+        
+        .item {
+            width:200px;
+            height:200px;
+            font-size:3rem;
+        }
+        
+        .left {
+            background-color:lime;
+            z-index:999;
+            position:relative
+        }
+            
+        .right {
+            background-color: deepskyblue;
+            position:relative;
+            top:-100px;
+            left:100px;
+            z-index:1;
+            }
+    </style>
+</head>
+<body>
+
+   <!-- #container>.item.left.item.right--->
+   <div id='container'>
+     <div class='item left'>1</div>
+     <div class='item right'>2</div>
+    </div>
+   
+</body>
+</html>
